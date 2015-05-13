@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foodie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    
+    <!-- Bottom Action Bar menu -->
+    <string name="menu_profile">Profile</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_bored">Bored?</string>
+    <string name="menu_create">Create</string>
+    
+    
+     <!-- Header Actions -->
+    <string name="back">Back</string>
+    <string name="next">NEXT</string>
+    <string name="done">DONE</string>
+    
+     <!--  startup screen -->
+     <string name="service_provider_text">Are you a service provider ?</string>
+     <string name="service_text">Are you looking for a service ?</string>
+</resources>

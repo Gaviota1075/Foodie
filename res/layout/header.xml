@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:background="@color/event_header"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/top_label_padding_bottom"
+        android:paddingTop="@dimen/top_icon_padding_top" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/header_cancel_imageview"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_close_white_48dp" />
+        </LinearLayout>
+
+        <!-- Title -->
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Title"
+            android:textAppearance="@style/Header1_white"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/header_next_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textAppearance="@style/Button2_white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/header_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/header_create_activity_sub_title_padding_bottom"
+        android:text="Subtitle"
+        android:textAppearance="@style/Header3_white"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
