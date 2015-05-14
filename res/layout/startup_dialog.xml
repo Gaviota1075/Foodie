@@ -2,38 +2,60 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical" >
-    
+
 <!-- Header --> 
 
 <!--     <include layout="@layout/header" /> -->
-    
+
 <!-- Content -->
-    
+
     <LinearLayout
         android:id="@+id/main_without_actionbar_main_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="50dp"
         android:orientation="vertical">
-    
-        <Button
-		  android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:background="@color/concrete_gray"
-          android:textAppearance="@style/Header3_orange"
-          android:text="@string/service_provider_text"/>
         
-        
-        <Button
-		  android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_marginTop="150dp"
-          android:background="@color/concrete_gray"
-          android:textAppearance="@style/Header3_orange"
-          android:text="@string/service_text"/>
+        <ImageView 
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/foodielogo"/>
 
-        </LinearLayout>    
+        <Button
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="100dp"
+          android:src="@drawable/btn_transfer_pressed"
+          android:background="@drawable/button_home"
+          android:paddingStart="@dimen/button_padding"
+          android:paddingEnd="@dimen/button_padding"
+          android:paddingTop="@dimen/button_padding"
+          android:paddingBottom="@dimen/button_padding"
+          android:text="@string/service_provider_text"
+          android:textColor="@color/white"
+          android:textSize="20sp"
+          android:fontFamily="sans-serif"
+          android:onClick="handleServiceProvider"/>
+
+        <Button
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="60dp"
+          android:src="@drawable/btn_transfer_pressed"
+          android:background="@drawable/button_home"
+          android:paddingStart="@dimen/button_padding"
+          android:paddingEnd="@dimen/button_padding"
+          android:paddingTop="@dimen/button_padding"
+          android:paddingBottom="@dimen/button_padding"
+          android:textColor="@color/white"
+          android:textSize="20sp"
+          android:fontFamily="sans-serif"
+          android:text="@string/service_text"
+          android:onClick="handleServiceFinder"/>
+
+        </LinearLayout>
 </LinearLayout>

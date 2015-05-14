@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_activities"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/white" >
+
+    <!--  Bottom Action bar -->
+    <include layout="@layout/actionbar_bottom" />
+
+    <!-- Header logo -->
+    <include layout="@layout/header_logo" />
+
+</RelativeLayout>

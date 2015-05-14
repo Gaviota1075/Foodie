@@ -6,7 +6,7 @@
     android:layout_alignParentBottom="true"
     android:layout_gravity="center"
     android:background="@drawable/divider_top"
-    android:baselineAligned="true"
+    android:baselineAligned="false"
     android:gravity="center"
     android:orientation="horizontal"
     android:paddingBottom="@dimen/actionbar_padding_bottom"
@@ -18,6 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:background="@color/dark_orange"
         android:gravity="center"
         android:onClick="onBottomBarHomeClick"
         android:orientation="vertical" >
@@ -42,9 +43,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/actionbar_bottom_bored_layout"
+        android:id="@+id/actionbar_bottom_menu_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/dark_orange"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
@@ -52,13 +54,13 @@
         android:orientation="vertical" >
 
         <ImageView
-            android:id="@+id/actionbar_bored_imageview"
+            android:id="@+id/actionbar_menu_imageview"
             android:layout_width="@dimen/icon_size"
             android:layout_height="@dimen/icon_size"
             android:layout_gravity="center"
-            android:contentDescription="@string/menu_bored"
+            android:contentDescription="@string/menu_items"
             android:gravity="center"
-            android:src="@drawable/bottom_tab_bored_unselected"
+            android:src="@drawable/bottom_tab_menu_unselected"
             android:visibility="visible" />
 
         <TextView
@@ -66,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/actionbar_label_padding_top"
-            android:text="@string/menu_bored"
+            android:text="@string/menu_items"
             android:textAppearance="@style/Body3_mine" />
     </LinearLayout>
 
@@ -74,6 +76,7 @@
         android:id="@+id/actionbar_bottom_create_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/dark_orange"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
@@ -103,6 +106,7 @@
         android:id="@+id/actionbar_bottom_profile_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/dark_orange"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"

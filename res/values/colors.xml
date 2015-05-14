@@ -17,6 +17,7 @@
     <color name="white">#FFFFFF</color>
     <color name="white_50">#80FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="dark_orange">#df8b5d</color>
 
     <!-- Colors with their usage defined -->
     <color name="top_action_bar">@color/yellow_orange</color>

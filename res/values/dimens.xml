@@ -14,7 +14,7 @@
     <dimen name="icon_size">32dp</dimen> <!-- should be 18dp but looks weird -->
     <dimen name="top_icon_padding_start">15dp</dimen>
     <dimen name="top_icon_padding_end">@dimen/top_icon_padding_start</dimen>
-    <dimen name="top_icon_padding_top">15dp</dimen>
+    <dimen name="top_icon_padding_top">30dp</dimen>
     <dimen name="top_icon_padding_bottom">@dimen/top_icon_padding_top</dimen>
     <dimen name="top_icon_margin_start">15dp</dimen>
     <dimen name="top_icon_margin_end">@dimen/top_icon_margin_start</dimen>
@@ -30,7 +30,8 @@
     <dimen name="top_label_margin_bottom">@dimen/top_label_margin_top</dimen>
     <dimen name="list_activities_divider">12dp</dimen>
     <dimen name="dot_size">24sp</dimen>
-    
+    <dimen name="button_padding">20dp</dimen>
+
     <!-- Bottom Action Bar -->
     <dimen name="actionbar_padding_top">4dp</dimen>
     <dimen name="actionbar_label_padding_top">1dp</dimen>
